@@ -86,8 +86,10 @@ const keluarga = () => {
     let toggleKeluarga = document.getElementById('toggleKeluarga')
         if(toggleKeluarga.checked){
         toggle1.checked = true
+        saklar()
     } else {
         toggle1.checked = false
+        saklar()
     }
 }
 
