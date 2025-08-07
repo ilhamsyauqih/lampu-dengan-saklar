@@ -9,6 +9,7 @@ const saklar = () => {
     let saklar8 = document.getElementById('saklar8')
     let saklar9 = document.getElementById('saklar9')
     let saklar10 = document.getElementById('saklar10')
+    let toggleKeluarga = document.getElementById('toggleKeluarga')
     let toggle1 = document.getElementById('toggle1')
     let toggle2 = document.getElementById('toggle2')
     let toggle3 = document.getElementById('toggle3')
@@ -19,8 +20,16 @@ const saklar = () => {
     let toggle8 = document.getElementById('toggle8')
     let toggle9 = document.getElementById('toggle9')
     let toggle10 = document.getElementById('toggle10')
+    // console.log(toggleKeluarga.checked)
+    console.log(toggle1.checked);
+    if(toggleKeluarga.checked){
+        toggle1.checked = true
+    } else {
+        toggle1.checked = false
+    }
     // SAKLAR 1
     if(toggle1.checked) {
+        // toggle1.checked = true
         saklar1.src = "assets/images/on.gif"
     } else {
         saklar1.src = "assets/images/off.gif"
