@@ -106,5 +106,17 @@ const makan = () => {
             saklar()
         }
 }
+const tidur = () => {
+    let toggleTidur = document.getElementById('toggleTidur')
+        if(toggleTidur.checked){
+            toggle5.checked = true
+            toggle6.checked = true
+            saklar()
+        } else {
+            toggle5.checked = false
+            toggle6.checked = false
+            saklar()
+        }
+}
 
 
