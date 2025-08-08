@@ -118,5 +118,21 @@ const tidur = () => {
             saklar()
         }
 }
+const tamu = () => {
+    let toggleTamu = document.getElementById('toggleTamu')
+        if(toggleTamu.checked){
+            toggle7.checked = true
+            toggle8.checked = true
+            toggle9.checked = true
+            toggle10.checked = true
+            saklar()
+        } else {
+            toggle7.checked = false
+            toggle8.checked = false
+            toggle9.checked = false
+            toggle10.checked = false
+            saklar()
+        }
+}
 
 
