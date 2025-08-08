@@ -96,5 +96,15 @@ const keluarga = () => {
         saklar()
     }
 }
+const makan = () => {
+    let toggleMakan = document.getElementById('toggleMakan')
+        if(toggleMakan.checked){
+            toggle4.checked = true 
+            saklar()
+        } else {
+            toggle4.checked = false
+            saklar()
+        }
+}
 
 
